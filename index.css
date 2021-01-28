@@ -1,10 +1,7 @@
-textarea{
+textarea, div{
 	box-sizing: border-box;
+	padding: 20px;
 	width: 40%;
 	height: 700px;
 	float: left;
-}
-div{
-	box-sizing: border-box;
-	width: 50%;
 }
