@@ -7,4 +7,8 @@ code = code.replaceAll(/[ X]*\.[ X]*/g,'.');
 code = code.replaceAll(/[ X]*\([ X]*/g,'(');
 code = code.replaceAll(/[ X]*\)[ X]*/g,')');
 
+
+code = code.replaceAll(/[ X]*\’[ X]*/g,"'");
+code = code.replaceAll(/[ X]*\‘[ X]*/g,"'");
+
 document.getElementsByTagName('div')[0].innerText = code; // show modified code
