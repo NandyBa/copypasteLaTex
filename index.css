@@ -1,0 +1,10 @@
+textarea{
+	box-sizing: border-box;
+	width: 40%;
+	height: 700px;
+	float: left;
+}
+div{
+	box-sizing: border-box;
+	width: 50%;
+}
