@@ -6,7 +6,6 @@ $copyButton = document.getElementById('copy');
 code = "";
 
 $updateButton.onclick = function() {
-	console.log("trigger");
 	code = $textarea.value; // get code textarea code
 
 	code = code.replace(/(\n[0-9]+)+\s*/g,'\n'); // remove numbers at begining of each row
