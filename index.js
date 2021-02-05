@@ -20,6 +20,9 @@ $updateButton.onclick = function() {
 	code = code.replaceAll(/[ X]*\’[ X]*/g,"'");
 	code = code.replaceAll(/[ X]*\‘[ X]*/g,"'");
 
+	code = code.replaceAll(/[ X]*\[[ X]*/g,"[");
+	code = code.replaceAll(/[ X]*\]/g,"]");
+
 	$div.innerText = code; // show modified code
 }
 
