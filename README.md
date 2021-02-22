@@ -55,8 +55,7 @@ Il ne reste plus qu'à indenter le code
       if(req.body.object ==='page'&& req.body.entry){
         let data = req.body ;
         // for on page objects
-        // for on messageObj s if messaging of each page
-        exists
+        // for on messageObj s if messaging of each page exists
         if(messageObj.postback){
           // handle postbacks
         }
